@@ -21,4 +21,4 @@ RUN pip install -r requirements.txt
 EXPOSE 8080
 
 # Start uwsgi (merely for rapid testing, production may require you to use nginx) when the container is run
-ENTRYPOINT ["uwsgi", "--http", "0.0.0.0:8000", "--module", "app:app", "--processes", "1", "--threads", "4"]
+ENTRYPOINT ["uwsgi", "--http", "0.0.0.0:8080", "--module", "app:app"]
