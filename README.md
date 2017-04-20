@@ -1,5 +1,6 @@
 # docker-flask
 A repository with some basic code and a docker file to get you started with running flask in a dockerized environment!
+This repository is also available on the docker hub: https://hub.docker.com/r/realalphav/flask/
 
 ## This image should merely be used for development and/or testing. It does not use nginx, so won't be able to handle a production workload.
 
